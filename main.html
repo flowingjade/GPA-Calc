@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>GPA Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="addElement()">
+  <script src="main.js"></script>
+  <div class="container">
+    <div class="content">
+      <header class="header">
+        <nav class="navbar">
+          <ul class="list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="main.html">Calculator</a></li>
+            <li><a href="chatbot.html">Chatbot</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="imgcontainer">
+        <img src="genie.png" alt="genie" id="genie">
+      </div>
+      <div class="title">
+        <h1>GPA GENIE</h1>
+      </div>
+      <div class="input" id="input">
+      </div>
+      
+      <div id="calcAndAdd">
+        <button onclick="addElement()" class="btn">+</button>
+        <button onclick="saveData()" class="btn">Calculate</button>
+      </div>
+      <div id="result">
+        <p id="gpatotal"></p>
+      </div>
+      <div class="chatbot">
+        <button id="chatbot" onclick="redirect()"><img src="geniehead.png" alt="genie" id="genieredirect">Questions?</button>
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+
+
+</html>

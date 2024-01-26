@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@font-face{
+  font-family: myFont;
+  src: url(at\ tupats.otf);
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+#genie{
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  font-family: myFont;
+  margin: 0;
+}
+#genieredirect{
+  height: auto;
+  max-width: 50px;
+}
+.title h1 {
+  margin: 0;
+  font-size: 50px;
+  color: black;
+}
+
+#input{
+  text-align: center;
+  background-color:#0066CC;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  justify-content: center;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+#calcAndAdd{
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+#result{
+  text-align: center;
+  margin: auto;
+}
+.allSelect{
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.allSelect2{
+  font-family: 'Poppins', sans-serif;
+}
+.courseSelect{
+  font-family: 'Poppins', sans-serif;
+}
+#className{
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+#remove{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.btn{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*NAVBAR*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+li{
+  margin: 0 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover{
+  background-color: azure;
+  color: black;
+}
+.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/*CHATBOT BUTTON*/
+#chatbot{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
